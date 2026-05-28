@@ -16,7 +16,7 @@
 
 ```bash
 # 1. 建立專屬虛擬環境 (.venv)
-python -m venv .venv
+py -m venv .venv
 
 # 2. 安裝本專案必備之網頁與機器學習套件
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
