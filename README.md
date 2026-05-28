@@ -20,6 +20,9 @@ py -m venv .venv
 
 # 2. 安裝本專案必備之網頁與機器學習套件
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+
+# 3. 在終端機中執行 Python 檔案：
+.\.venv\Scripts\python.exe server.py
 ```
 
 ### 步驟三：一鍵雙擊啟動網頁系統
