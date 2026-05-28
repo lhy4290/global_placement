@@ -26,13 +26,20 @@ python -m venv .venv
 -環境配置完成後，您完全不需要打開任何程式碼編輯器或終端機：
 
 直接進入專案資料夾，用滑鼠雙擊執行 啟動薪資評估工具.bat。
+
 系統將自動在背景啟動 Flask 後端伺服器（進行隨機森林模型的智能記憶讀取/初次訓練）。
+
 稍等 2 秒後，系統會自動在您的瀏覽器中彈出現代化前端網頁 index.html。
+
 您即可自由調整滑桿與下拉選單，點擊按鈕享受 Chart.js 動態互動圖表帶來的智能職涯分析報告！
 
 ### 📂核心專案結構 (Project Architecture)
 server.py：基於 Flask 框架的後端預測引擎，負責調用機器記憶進行特徵推論與情境模擬。
+
 index.html：優化後的現代化卡片式前端網頁，整合 Chart.js 客戶端動態互動繪圖技術。
+
 global_placement.csv：核心大數據資料庫，供模型第一次啟動時深度學習使用。
+
 requirements.txt：本專案必備套件清單（包含 Flask, Flask-CORS, Scikit-Learn, SciPy 等）。
+
 啟動薪資評估工具.bat：Windows 專屬環境自動對接與一鍵啟動批次檔。
