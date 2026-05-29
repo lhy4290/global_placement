@@ -21,6 +21,9 @@ py -m venv .venv
 # 2. 升級 pip 並安裝本專案必備之網頁與機器學習套件
 .\.venv\Scripts\python.exe -m pip install --upgrade pip
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+
+# 3. 輸入自己的金鑰
+請將 .env.example 複製一份並改名為 .env，然後填入你自己的金鑰。
 ```
 
 ### 步驟三：啟動系統（後端運行 + 前端 Live Server 渲染）
