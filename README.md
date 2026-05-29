@@ -33,4 +33,4 @@ py -m venv .venv
 .\.venv\Scripts\python.exe server.py
 ```
 
-系統將自動在背景啟動 Flask 服務（進行隨機森林模型的智能記憶讀取/初次訓練），當看到 * Running on http://127.0.0.1:5000 即代表後端通暢。
+系統將自動在背景啟動 Flask 服務（進行隨機森林模型的智能記憶讀取/初次訓練），當看到 `* Running on http://127.0.0.1:5000` 即代表後端通暢。
